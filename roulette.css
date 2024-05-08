@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(103, 11, 11);
+}
+
+#table {
+  margin-left: 7.5vw;
+  margin-top: 10vw;
+  background-color: green;
+  border: solid;
+  border-width: 2vw;
+  border-radius: 30px;
+  max-width: 80vw;
+  border-color: rgb(0, 0, 0);
+}
+
+#chips {
+  margin-left: 4vw;
+  display: flex;
+  margin-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+#orange {
+  background-image: url(images/chip-orange.png);
+  background-size: cover;
+  width: 2.7vw;
+  height: 2.6vw;
+  text-align: center;
+  color: white;
+}
+
+#blue {
+  background-image: url(images/chip-blue.png);
+  background-size: cover;
+  width: 2.7vw;
+  height: 2.6vw;
+  text-align: center;
+  color: white;
+}
+
+#black {
+  background-image: url(images/chip-black.png);
+  background-size: cover;
+  width: 2.7vw;
+  height: 2.6vw;
+  text-align: center;
+  color: white;
+}
+
+#red {
+  background-image: url(images/chip-red.png);
+  background-size: cover;
+  width: 2.7vw;
+  height: 2.6vw;
+  text-align: center;
+  color: white;
+}
+
+#purple {
+  background-image: url(images/chip-purple.png);
+  background-size: cover;
+  width: 2.7vw;
+  height: 2.6vw;
+  text-align: center;
+  color: white;
+}
+
+#buttons {
+  margin-left: 24vw;
+  display: flex;
+}
+
+#spin {
+  width: 6vw;
+  border-radius: 1vw;
+  border: none;
+  background-color: rgb(32, 32, 82);
+  color: white;
+  padding: 1vw;
+  margin-left: 10vw;
+}
+
+#entfernen {
+  border-radius: 1vw;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 1vw;
+}
+
+#spin:hover {
+  background-color: rgb(19, 19, 50);
+  cursor: pointer;
+}
+
+#entfernen:hover {
+  background-color: rgb(190, 8, 8);
+  cursor: pointer;
+}
